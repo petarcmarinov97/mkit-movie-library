@@ -1,0 +1,225 @@
+div.card_style {
+  margin-top: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  border: 2px solid;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  -webkit-margin-after: 10px;
+          margin-block-end: 10px;
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+  -webkit-padding-after: 20px;
+          padding-block-end: 20px;
+}
+
+div.card_style button.favoritesBtn {
+  -webkit-margin-before: 25px;
+          margin-block-start: 25px;
+  width: 190px;
+  height: 45px;
+  border-color: #548002;
+  border: 1px solid;
+  line-height: 30px;
+  font-size: 1em;
+  color: #548002;
+  background-color: transparent;
+  border: 1px solid #548002;
+  border-radius: 10px;
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
+}
+
+div.card_style button.favoritesBtn:hover {
+  border: 2px solid #548002;
+  cursor: pointer;
+}
+
+div.card_style button.removeFavoritesBtn {
+  -webkit-margin-before: 25px;
+          margin-block-start: 25px;
+  width: 190px;
+  height: 45px;
+  border-color: red;
+  border: 1px solid;
+  line-height: 30px;
+  font-size: 1em;
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 10px;
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
+}
+
+div.card_style button.removeFavoritesBtn:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+div.card_style div.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(100vw - 82px);
+  color: #000;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.card_style div.wrapper div.image {
+  min-width: 230px;
+  width: 230px;
+  height: 260px;
+  display: block;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-padding-start: 2px;
+          padding-inline-start: 2px;
+}
+
+div.card_style div.wrapper div.image div.poster {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.card_style div.wrapper div.image div.poster a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.card_style div.wrapper div.image div.poster a img {
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.card_style div.wrapper div.details {
+  width: 100%;
+  padding: 0px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.card_style div.wrapper div.details div.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1.1em;
+  color: blue;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.card_style div.wrapper div.details div.wrapper div.title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  overflow: hidden;
+  -webkit-padding-after: 10px;
+          padding-block-end: 10px;
+}
+
+div.card_style div.wrapper div.details div.wrapper div.title div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-padding-after: 10px;
+          padding-block-end: 10px;
+}
+
+div.card_style div.wrapper div.details div.wrapper div.title div a h2 {
+  color: #000;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 600;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+div.card_style div.wrapper div.details div.wrapper div.overview {
+  height: auto;
+  display: block;
+  color: #000;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-padding-after: 20px;
+          padding-block-end: 20px;
+}
+
+div.card_style div.wrapper div.details div.wrapper div.more a {
+  -webkit-padding-after: 20px;
+          padding-block-end: 20px;
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+  color: blue;
+}
+/*# sourceMappingURL=ResultCard.css.map */

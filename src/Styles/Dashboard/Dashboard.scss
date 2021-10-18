@@ -1,0 +1,94 @@
+section.inner_content {
+    background-image: url('https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/6LfVuZBiOOCtqch5Ukspjb9y0EB.jpg');
+    max-width: 100%;
+    min-height: 400px;
+    height: calc(100vh / 2.5);
+    max-height: 400px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+
+    div.media_v4 {
+        height: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+
+        div.column_wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            align-content: flex-start;
+
+            div.content_wrapper{
+                max-width: 1400px;
+                width: 100%;
+                display: flex;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+                align-content: flex-start;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                div.title{
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    h2{
+                        font-size: 3em;
+                        font-weight: 700;
+                        line-height: 1;
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    h3{
+                        font-size: 2em;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                }
+
+                div.search{
+                    width: 100%;
+
+                    button{
+                        height: 40px;
+                        width: 100px;
+                        border: none;
+                        border-radius: 5px;
+                        top: 0;
+                        right: -1px;
+                        color: #fff;
+                        background: linear-gradient(to right, rgba(30,213,169, 1) 0%, rgba(1, 180 , 228, 1) 100%);
+                        font-weight: 700;
+                        cursor: pointer;
+                        font:inherit;
+                        border:1px solid rgb(71, 82, 85); 
+                    }
+
+                    button:hover{
+                        border: 1px solid rgb(218, 247, 163);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

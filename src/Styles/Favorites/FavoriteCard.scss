@@ -1,0 +1,92 @@
+div.favcard_style {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-inline-end: 15px;
+    margin-inline-start: 15px;
+    width:170px;
+    max-width: 200px;
+    div {
+        display: block;
+    }
+
+    div.image {
+        width: 100%;
+        height: 300px;
+        max-height: 300px;
+
+        div.wrapper {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+
+            a.image {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    div.content {
+        width: 100%;
+        padding: 26px 10px 12px 10px;
+        position: relative;
+        white-space: normal;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+        h2 {
+            font-size: 1em;
+            margin: 0;
+            width: 100%;
+            word-wrap: normal;
+            overflow-wrap: break-word;
+            font-weight: 600;
+            color:blue;
+            padding: 0;
+            box-sizing: border-box;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            white-space: normal;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 0;
+            padding: 0;
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    div.hover {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(20px);
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        z-index: 5;
+        transition: linear .1s;
+        opacity: 0;
+    }
+
+
+}

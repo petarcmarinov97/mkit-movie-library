@@ -1,0 +1,128 @@
+section.inner_content {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/6LfVuZBiOOCtqch5Ukspjb9y0EB.jpg");
+  max-width: 100%;
+  min-height: 400px;
+  height: calc(100vh / 2.5);
+  max-height: 400px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section.inner_content div.media_v4 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.inner_content div.media_v4 div.column_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper {
+  max-width: 1400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper div.title {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper div.title h2 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper div.title h3 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper div.search {
+  width: 100%;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper div.search button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  right: -1px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#1ed5a9), to(#01b4e4));
+  background: linear-gradient(to right, #1ed5a9 0%, #01b4e4 100%);
+  font-weight: 700;
+  cursor: pointer;
+  font: inherit;
+  border: 1px solid #475255;
+}
+
+section.inner_content div.media_v4 div.column_wrapper div.content_wrapper div.search button:hover {
+  border: 1px solid #daf7a3;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Dashboard.css.map */

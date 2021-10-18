@@ -1,0 +1,76 @@
+form {
+  -webkit-padding-before: 50px;
+          padding-block-start: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .containerLogin {
+  max-width: 600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px;
+  background-color: white;
+}
+
+form .containerLogin div.error {
+  color: red;
+  text-align: center;
+}
+
+form .containerLogin input[type=text],
+form .containerLogin input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+form .containerLogin input[type=text]:focus,
+form .containerLogin input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+form .containerLogin hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+form .containerLogin .loginbtn {
+  background-color: #7d16f3;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+form .containerLogin .loginbtn:hover {
+  opacity: 1;
+}
+
+form .containerLogin .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/*# sourceMappingURL=Login.css.map */

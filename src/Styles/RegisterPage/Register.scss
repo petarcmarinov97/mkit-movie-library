@@ -1,0 +1,64 @@
+form {
+  padding-block-start: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+
+  .containerRegister {
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: white;
+
+    div.error, div.passErrors{
+      color:red;
+      text-align: center;
+    }
+
+    input[type=email],
+    input[type=username],
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=email]:focus,
+    input[type=username]:focus,
+    input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+
+    .registerbtn {
+      background-color: #7d16f3;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+      opacity: 1;
+    }
+
+    .signup {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+  }
+}

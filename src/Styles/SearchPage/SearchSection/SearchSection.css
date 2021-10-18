@@ -1,0 +1,66 @@
+section.searchSection {
+  width: 100%;
+}
+
+section.searchSection div.title {
+  text-align: center;
+}
+
+section.searchSection div.title h2 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 0;
+}
+
+section.searchSection div.title h3 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+section.searchSection form.search {
+  display: block;
+  width: 100%;
+  text-align: center;
+  -webkit-margin-before: 15px;
+          margin-block-start: 15px;
+}
+
+section.searchSection form.search input.search {
+  line-height: normal;
+  margin: 0;
+}
+
+section.searchSection form.search input[type=text].search {
+  width: 540px;
+  height: 20px;
+  line-height: 30px;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  border-color: yellowgreen;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+section.searchSection form.search button.searchBtn {
+  width: 110px;
+  height: 40px;
+  border-color: #548002;
+  border: 1px solid;
+  line-height: 30px;
+  font-size: 1.3em;
+  color: #548002;
+  background-color: transparent;
+  border: 1px solid #548002;
+  border-radius: 10px;
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
+}
+
+section.searchSection form.search button:hover {
+  border: 2px solid #548002;
+  cursor: pointer;
+}
+/*# sourceMappingURL=SearchSection.css.map */

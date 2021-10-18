@@ -1,0 +1,183 @@
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #032541;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: top 0.2s linear;
+  transition: top 0.2s linear;
+}
+
+header a.title {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+header a.logo {
+  display: block;
+  margin-right: 0px;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 0;
+  aspect-ratio: auto 154 / 20;
+  height: 70px;
+}
+
+header div.content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header div.sub_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+}
+
+header div.nav_center {
+  margin-top: 25px;
+}
+
+header div.nav_wrapperLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: visible;
+  color: white;
+}
+
+header div.nav_wrapperRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header div.nav_wrapperRight ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header div.centralForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header div.centralForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-padding-before: 0px;
+          padding-block-start: 0px;
+}
+
+header div.centralForm input[type=text] {
+  width: 170px;
+  height: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #dfdfdf;
+  border: none;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+header div.centralForm button.searchBtn {
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+header ul.guests, header ul.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+}
+
+header ul.guests li a, header ul.users li a {
+  border: transparent 1px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #032541;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 24px 10px;
+  font-size: 16px;
+  text-decoration: none;
+  float: right;
+}
+
+header ul.guests a:hover, header ul.users a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*# sourceMappingURL=Navbar.css.map */

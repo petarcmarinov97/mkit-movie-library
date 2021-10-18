@@ -1,0 +1,41 @@
+section.ResultSection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+section.ResultSection div {
+  display: block;
+}
+
+section.ResultSection div.results {
+  margin-top: 0px;
+  max-width: 70%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-margin-start: 70px;
+          margin-inline-start: 70px;
+}
+
+section.ResultSection div.results div.pageNumber {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+}
+/*# sourceMappingURL=ResultSection.css.map */

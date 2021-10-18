@@ -1,0 +1,179 @@
+div.card_style {
+
+    margin-top: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 25px;
+    display: flex;
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+
+    button.favoritesBtn {
+        margin-block-start: 25px;
+        width: 190px;
+        height: 45px;
+        border-color: rgb(84, 128, 2);
+        border: 1px solid;
+        line-height: 30px;
+        font-size: 1em;
+        color: rgb(84, 128, 2);
+        background-color: transparent;
+        border: 1px solid rgb(84, 128, 2);
+        border-radius: 10px;
+        margin-inline-start: 5px;
+    }
+
+    button.favoritesBtn:hover {
+        border: 2px solid rgb(84, 128, 2);
+        cursor: pointer;
+    }
+
+    button.removeFavoritesBtn{
+        margin-block-start: 25px;
+        width: 190px;
+        height: 45px;
+        border-color: red;
+        border: 1px solid;
+        line-height: 30px;
+        font-size: 1em;
+        color: red;
+        background-color: transparent;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin-inline-start: 5px;
+    }
+
+    button.removeFavoritesBtn:hover {
+        border: 2px solid red;
+        cursor: pointer;
+    }
+
+    div.wrapper {
+        display: flex;
+        max-width: calc(100vw - 82px);
+        color: #000;
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+        font-size: 1em;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+
+        div.image {
+            min-width: 230px;
+            width: 230px;
+            height: 260px;
+            display: block;
+            font-family: 'Source Sans Pro', Arial, sans-serif;
+            font-size: 1em;
+            -webkit-font-smoothing: antialiased;
+            padding-inline-start: 2px;
+
+            div.poster {
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    font-weight: normal;
+                    box-sizing: border-box;
+                    font-family: 'Source Sans Pro', Arial, sans-serif;
+                    font-size: 1em;
+                    -webkit-font-smoothing: antialiased;
+
+                    img {
+                        min-width: 100%;
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        outline: none;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+        }
+
+        div.details {
+            width: 100%;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+
+            div.wrapper {
+                display: flex;
+                align-items: flex-start;
+                width: 100%;
+                font-family: 'Source Sans Pro', Arial, sans-serif;
+                font-size: 1.1em;
+                color: blue;
+                -webkit-font-smoothing: antialiased;
+                flex-direction: column;
+
+                div.title {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: baseline;
+                    overflow: hidden;
+                    padding-block-end: 10px;
+
+                    div a {
+                        display: flex;
+                        color: #000;
+                        font-size: 1.3em;
+                        text-decoration: none;
+                        font-weight: normal;
+                        box-sizing: border-box;
+                        padding-block-end: 10px;
+
+                        h2 {
+                            color: #000;
+                            font-size: 1.2em;
+                            line-height: 1.2em;
+                            margin-bottom: 0;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            font-weight: 600;
+                            padding: 0;
+                            box-sizing: border-box;
+                            margin-block-start: 0em;
+                            margin-block-end: 0em;
+                            margin-inline-start: 0px;
+                            margin-inline-end: 0px;
+                        }
+                    }
+                }
+
+                div.overview {
+                    height: auto;
+                    display: block;
+                    color: #000;
+                    font-family: 'Source Sans Pro', Arial, sans-serif;
+                    font-size: 1em;
+                    -webkit-font-smoothing: antialiased;
+                    padding-block-end: 20px;
+                }
+
+                div.more a {
+                    padding-block-end: 20px;
+                    padding-block-start: 20px;
+                    color: blue;
+                }
+            }
+
+
+        }
+    }
+}
